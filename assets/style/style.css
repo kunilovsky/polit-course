@@ -136,6 +136,38 @@ section {
   }
 }
 
+.lead__item {
+  padding: 15px 0;
+}
+
+.lead__item-title {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.lead__item-description {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .lead__item {
+    padding: 15px 0;
+  }
+  .lead__item-title {
+    font-size: 2rem;
+  }
+  .lead__item-description {
+    font-size: 0.7rem;
+  }
+}
+
+/* Element */
+.block-radius {
+  color: #fff;
+  background: #000;
+  border-radius: 30px;
+}
+
 body {
   font-family: 'Cormorant', serif;
 }
