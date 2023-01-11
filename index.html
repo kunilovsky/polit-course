@@ -10,10 +10,64 @@
     <link rel="stylesheet" href="assets/style/bs5.css">
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
-    <h1>
-        Hello world!
-    </h1>
+
 <body>
+    <header class="sticky-top">
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto ms-auto p-0" href="#">
+                    <img src="assets/img/logo-white.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Навигация</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">О курсе</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Программа курса</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Принять участие</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Автор курса</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="start text-center" style="background: url(/assets/img/bg-i-start.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <div class="container h-100">
+                <div class="row align-items-center h-50">
+                    <h1 class="start__title">
+                        ПЕРСОНАЛЬНЫЙ БРЕНДИНГ ПОЛИТИКА
+                    </h1>
+                    <div class="start__description text-open-sans">
+                        Политическая арена – это система ценностей и коллективных смыслов территории
+                    </div>
+                    <a href="#" class="start__btn text-open-sans">
+                        Записаться на курс
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="assets/js/bs5.js"></script>
 </body>
 
