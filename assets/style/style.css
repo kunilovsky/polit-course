@@ -26,6 +26,7 @@ a:hover {
   text-decoration: none;
 }
 
+/* Section */
 .start {
   height: 100vh;
   color: #fff;
@@ -76,6 +77,26 @@ a:hover {
   }
   .start__description {
     font-size: 20px;
+  }
+}
+
+.promo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.promo__img img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.promo__text {
+  font-size: 22px;
+}
+
+@media (max-width: 992px) {
+  .promo__text {
+    font-size: 1rem;
   }
 }
 
