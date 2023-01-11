@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,kBAAkB;CAAG;;AACtC,AAAA,eAAe,CAAC;EACZ,WAAW,EAAE,uBAAuB;CAAG;;AAC3C,AAAA,kBAAkB,CAAC;EACf,WAAW,EAAE,qBAAqB;CAAG",
+    "sources": [
+        "sass/style.sass",
+        "sass/_colors.sass",
+        "sass/_header.sass",
+        "sass/_component.sass",
+        "sass/_footer.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
